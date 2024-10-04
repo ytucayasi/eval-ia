@@ -1,0 +1,44 @@
+{
+    "preguntas": [
+        {
+            "tipo": "opcion_multiple",
+            "pregunta": "\u00bfCu\u00e1l de los siguientes planetas del sistema solar tiene anillos alrededor de \u00e9l?",
+            "opciones": [
+                "Marte",
+                "J\u00fapiter",
+                "Venus"
+            ],
+            "respuesta_correcta": "1"
+        },
+        {
+            "tipo": "abierta",
+            "pregunta": "Describe brevemente qu\u00e9 es un agujero negro y c\u00f3mo se forma.",
+            "respuesta_sugerida": "Un agujero negro es una regi\u00f3n del espacio con una gravedad tan intensa que nada, ni siquiera la luz, puede escapar de ella. Se forma a partir del colapso gravitacional de una estrella masiva al final de su ciclo de vida."
+        },
+        {
+            "tipo": "opcion_multiple",
+            "pregunta": "\u00bfCu\u00e1l es la estrella m\u00e1s cercana al sistema solar?",
+            "opciones": [
+                "Sirio",
+                "Alfa Centauri",
+                "Proxima Centauri"
+            ],
+            "respuesta_correcta": "2"
+        },
+        {
+            "tipo": "abierta",
+            "pregunta": "Explica qu\u00e9 es una galaxia y menciona el nombre de una galaxia famosa.",
+            "respuesta_sugerida": "Una galaxia es un conjunto masivo de estrellas, planetas, gas, polvo c\u00f3smico y materia oscura unidas por la gravedad. Una galaxia famosa es la V\u00eda L\u00e1ctea."
+        },
+        {
+            "tipo": "opcion_multiple",
+            "pregunta": "\u00bfCu\u00e1l es el nombre del telescopio espacial lanzado por la NASA en 1990?",
+            "opciones": [
+                "Hubble",
+                "James Webb",
+                "Spitzer"
+            ],
+            "respuesta_correcta": "0"
+        }
+    ]
+}

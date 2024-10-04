@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  fastapi_app:
+    build:
+      context: . # Construye el Dockerfile desde el directorio actual
+    ports:
+      - "8000:8000" # Mapea el puerto 8000 del contenedor al puerto 8000 de tu máquina
+    volumes:
+      - ./:/app # Monta todo el directorio del proyecto en /app dentro del contenedor
+    env_file:
+      - .env # Cargar las variables de entorno desde el archivo .env
+    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload # Añade la recarga automática

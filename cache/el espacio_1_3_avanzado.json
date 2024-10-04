@@ -1,0 +1,13 @@
+{
+    "preguntas": [
+        {
+            "pregunta": "\u00bfCu\u00e1l es la unidad de medida utilizada para medir distancias interestelares en el espacio?",
+            "opciones": [
+                "A\u00f1os luz",
+                "Kil\u00f3metros",
+                "Metros"
+            ],
+            "respuesta_correcta": "0"
+        }
+    ]
+}
